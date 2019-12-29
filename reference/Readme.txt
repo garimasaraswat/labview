@@ -1,0 +1,1 @@
+Made change on the magnetic field control, so that the B field ramp will timeout when doing magnetoresistance measurement. 

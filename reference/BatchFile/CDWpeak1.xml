@@ -1,0 +1,8649 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>8.6</Version>
+<Array>
+<Name>Batch Array</Name>
+<Dimsize>24</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>39.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>39.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>39.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>41.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>41.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>41.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>43.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>43.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>43.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>45.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>45.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>45.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>47.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>47.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>47.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>55.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>55.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>55.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>60.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>60.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>TempControl</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>18</Val>
+</U16>
+<DBL>
+<Name>Set Temp (K)</Name>
+<Val>60.00000000000000</Val>
+</DBL>
+<String>
+<Name>Temp. Title</Name>
+<Val>Temp_K</Val>
+</String>
+</Cluster>
+<Array>
+<Name>ADCardControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>256.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>499999.99999999999900</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>12</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>AD Card</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Sampling rate (Hz)</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Data Pts</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity(V)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PreAmp Gain</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Digital Filter window</Name>
+<Val>1</Val>
+</U32>
+<U16>
+<Name>Sample Config</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Lock-in Index</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Data Titile (;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>DC Source</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>DC Source</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set V/I (V/A)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>DCV;DCI</Val>
+</String>
+<U16>
+<Name>Source Mode</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Array>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>B field Control:</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Set Field (Oe)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>B field Title</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Lock-inControl</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>12</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>2.40000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>287.11900000000003</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S1t_ms;S1Vx_V;S1Vy_V;S1f_Hz;S1Sx_dB;S1Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>27</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>3</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S2t_ms;S2Vx_V;S2Vy_V;S2f_Hz;S2Sx_dB;S2Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Lock-In SR7265</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>GPIB ADR</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vosc(V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>fosc(Hz)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>DataTitle(;)</Name>
+<Val>S3t_ms;S3Vx_V;S3Vy_V;S3f_Hz;S3Sx_dB;S3Sy_dB</Val>
+</String>
+<I32>
+<Name>Time constant</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>Sensitivity</Name>
+<Val>15</Val>
+</I32>
+<U16>
+<Name>Filter Slope</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>SYNC OFF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoACGain On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Float On</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Buffer Enabled?</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Curve length</Name>
+<Val>16384</Val>
+</I32>
+<I16>
+<Name>Curves stored</Name>
+<Val>3</Val>
+</I16>
+<U16>
+<Name>interval (ms)</Name>
+<Val>5</Val>
+</U16>
+</Cluster>
+</Array>
+</Cluster>
+</Array>
+
+</LVData>
